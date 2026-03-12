@@ -1,0 +1,30 @@
+server:
+  port: 9000
+  jwt_expire_hours: 24
+
+merchant:
+  default_password: "123456"
+  withdrawal_fee: 0.15 #withdrawal fee 0.15%
+
+db:
+  driver: "postgres"
+  name: "quickBillController"
+  host: "127.0.0.1"
+  port: 5432
+  user: "postgres"
+  password: "123456"
+  charset: "utf8"
+  ssl: "disable"
+  schema: "public"
+  max_open_conns: 60
+  max_idle_conns: 60
+  max_life_time: 7200
+  log_level: "debug"
+
+log:
+  max_age: 7
+  max_size: 128
+  max_backups: 7
+  log_level: "debug"
+
+
