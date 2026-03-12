@@ -1,4 +1,4 @@
-# quickBillController
+# QuickBillController
 ## Overview
 This project is a cross-platform financial bookkeeping application built with a **separated frontend and backend architecture** to deliver a seamless and efficient bookkeeping experience for users.
 
